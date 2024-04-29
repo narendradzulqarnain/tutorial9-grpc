@@ -7,7 +7,7 @@ service PaymentService {
 }
 
 service TransactionService {
-    rpc GetTransactionHistory(TransaactionRequest) returns (stream TransactionResponse);
+    rpc GetTransactionHistory(TransactionRequest) returns (stream TransactionResponse);
 
 }
 
